@@ -3,10 +3,6 @@ app = Flask (__name__)
 @app.route('/')
 def hola_mundo():
     return 'Hola Mundo'
-<<<<<<< HEAD
-if __name__ == "__main__":
-    app.run(host='0.0.0.0')
-=======
     
 @app.route('/hola')
 def hola_html():
@@ -23,4 +19,3 @@ def xml():
 if __name__ == "__main__":
     app.run(host='0.0.0.0'
 debug=True)
->>>>>>> 3b1781c (Rutas en flask)
